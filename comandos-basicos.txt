@@ -1,0 +1,18 @@
+##cria o módulo
+
+nest g module nomemodulo
+
+##cria controller
+nest g controller product
+
+##cria o service
+nest g service product
+
+##criar um resorce(controller e service e outros)
+nest g resource
+
+##inicia o prisma para conectar banco de dados
+npx prisma init
+
+##faz as migrações
+npx prisma migrate dev
