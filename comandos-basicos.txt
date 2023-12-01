@@ -16,3 +16,6 @@ npx prisma init
 
 ##faz as migrações
 npx prisma migrate dev
+
+##cria uma estrutura para filtrar erros
+nest g filter not-found-error
